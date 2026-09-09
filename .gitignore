@@ -1,0 +1,11 @@
+# On ne publie que les projets prêts.
+# Pour publier un nouveau dossier, ajoutez une ligne : !nom-du-dossier/
+/*
+!.gitignore
+!README.md
+!exercices-fonctions/
+!js-es6/
+
+# Fichiers à ne pas versionner
+js-es6/js-es6.zip
+node_modules/
