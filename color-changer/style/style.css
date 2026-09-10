@@ -1,0 +1,38 @@
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+}
+
+.container {
+  margin-top: 80px;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+#color-box {
+  width: 200px;
+  height: 200px;
+  margin: 30px auto;
+  background-color: #cccccc;
+  border-radius: 12px;
+  border: 2px solid #999;
+  transition: background-color 0.3s ease;
+}
+
+#change-color-btn {
+  padding: 12px 28px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #2d6cdf;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#change-color-btn:hover {
+  background-color: #1f4fa8;
+}
